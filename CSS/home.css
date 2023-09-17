@@ -1,0 +1,217 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+}
+
+#body-cont-one {
+  margin-left: 5vh;
+  margin-top: 0%;
+}
+
+#body-cont-two {
+  text-align: center;
+  margin-top: 15vh;
+  /* margin-left: 0;   */
+}
+
+#body-cont-two .sentence {
+  font-size: 76px;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+  color: rgb(0, 119, 46);
+}
+
+#body-cont-two {
+  font-size: medium;
+  font-family: fantasy;
+  color: rgb(13, 51, 53);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+#about {
+  background-color: rgb(202, 234, 234);
+  color: #2b8700;
+  font-size: larger;
+
+
+}
+
+#about h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#about p {
+
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  margin: 0%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  padding-left: 4vh;
+  padding-right: 4vh;
+}
+
+.appointment {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(0, -50%);
+}
+
+.appointment .btn {
+  background-color: #2b8700;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.appointment .btn:hover {
+  background-color: #0b2100;
+}
+
+
+#doctorsnames {
+  margin-top: 5vh;
+  background-color: rgb(202, 234, 234);
+  color: #2b8700;
+  font-size: larger;
+  padding: 20px;
+}
+
+#doctorsnames h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doct-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.doctor {
+  border: 2px solid rgb(0, 119, 46);
+  width: 45%;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.doctor img {
+  width: 40%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.doctor-details {
+  border: 2px solid rgb(202, 234, 234);
+  background-color: rgb(202, 234, 234);
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+}
+
+.services {
+
+  color: rgb(0, 119, 46);
+  background-color: rgb(202, 234, 234);
+
+}
+
+.services h2 {
+  font-weight: 800;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.service-child
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* height: 50vh; */
+  width: 25%;
+  border: 2px solid rgb(0, 119, 46);
+  margin: 2vh;
+}
+.service-child img
+{
+  height: 30vh;
+}
+
+footer {
+
+  position: sticky;
+  /* bottom: 0; */
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+}
+
+.parent {
+  flex: 1;
+  margin-left: 10vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.footer-span {
+  display: block;
+}
+
+.parent ul {
+  list-style: none;
+  padding: 0;
+}
+
+.parent li {
+  text-decoration: none;
+  margin-bottom: 1vh;
+}
+
+.parent a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.parent a:hover {
+  color: #cb1818;
+}
